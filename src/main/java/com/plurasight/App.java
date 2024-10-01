@@ -32,6 +32,7 @@ public class App {
             winningTeam = awayTeam;
         }else {
             System.out.println("GAME IS TIED.");
+            System.exit(0);
         }
 
         //        System.out.println(scores[0] + " " + scores[1]);
